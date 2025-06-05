@@ -38,6 +38,7 @@ GET /user/purchases – View purchased courses
 
 🔐 Authentication
 JWT tokens are issued on login (/signin) and must be sent in headers as:
+
 token: token
 
 Use adminMiddleware and userMiddleware to protect routes
